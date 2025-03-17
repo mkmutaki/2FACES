@@ -12,6 +12,7 @@ import polygon from './polygon.png'
 import designer from './designer.png'
 import faces_logo from './faces_logo.png'
 import faces_logo2 from './2faces2.png'
+import hamburger_menu from './hamburger_icon.png'
 
 export const assets = {
 logo,
@@ -29,6 +30,7 @@ polygon,
 designer,
 faces_logo,
 faces_logo2,
+hamburger_menu,
 }
 
 import p_img1 from './p_img1.png'
@@ -101,6 +103,70 @@ import item_11 from './item_11.png'
 import item_12 from './item_12.png'
 import item_13 from './item_13.png'
 
+export const designers = [
+    {
+      image: [item_12],
+      profileImage: [item_1],
+      name: 'Sun West',
+    },
+    {
+      image: [item_12],
+      profileImage: [item_4],
+      name: 'Taskin Goec',
+    },
+    {
+      image: [item_12],
+      profileImage: [item_3],
+      name: 'Taskin Goec',
+    },
+    {
+      image: [item_12],
+      profileImage: [item_2],
+      name: 'Sun West',
+    },
+    {
+        image: [item_12],
+        profileImage: [item_1],
+        name: 'Sun West',
+      },
+      {
+        image: [item_12],
+        profileImage: [item_4],
+        name: 'Taskin Goec',
+      },
+      {
+        image: [item_12],
+        profileImage: [item_3],
+        name: 'Taskin Goec',
+      },
+      {
+        image: [item_12],
+        profileImage: [item_2],
+        name: 'Sun West',
+      },
+      {
+        image: [item_12],
+        profileImage: [item_1],
+        name: 'Sun West',
+      },
+      {
+        image: [item_12],
+        profileImage: [item_4],
+        name: 'Taskin Goec',
+      },
+      {
+        image: [item_12],
+        profileImage: [item_3],
+        name: 'Taskin Goec',
+      },
+      {
+        image: [item_12],
+        profileImage: [item_2],
+        name: 'Sun West',
+      },
+    
+  ];
+
 export const products = [
     {
         _id: "aaaaa",
@@ -111,7 +177,8 @@ export const products = [
         category: "Topwear",
         sizes: ["S", "M", "L"],
         date: 1716634345448,
-        bestseller: true
+        bestseller: true,
+        designer: "Alex Russo",
     },
     {
         _id: "aaaab",
@@ -122,7 +189,8 @@ export const products = [
         category: "Topwear",
         sizes: ["M", "L", "XL"],
         date: 1716621345448,
-        bestseller: true
+        bestseller: true,
+        designer: "Alex Russo",
     },
     {
         _id: "aaaac",
@@ -133,7 +201,8 @@ export const products = [
         category: "Topwear",
         sizes: ["S", "L", "XL"],
         date: 1716234545448,
-        bestseller: true
+        bestseller: true,
+        designer: "Alex Russo",
     },
     {
         _id: "aaaad",
@@ -144,7 +213,8 @@ export const products = [
         category: "Topwear",
         sizes: ["S", "M", "XXL"],
         date: 1716621345448,
-        bestseller: true
+        bestseller: true,
+        designer: "Alex Russo",
     },
     {
         _id: "aaaae",

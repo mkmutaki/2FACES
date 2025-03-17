@@ -16,7 +16,7 @@ import Designers from './pages/Designers.jsx'
 
 const App = () => {
   return (
-    <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[3vw]'>
+    <div className='px-4 sm:px-[3vw] md:px-[3vw] lg:px-[3vw]'>
       
       <Navbar />
       <SearchBar />
